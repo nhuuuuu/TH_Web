@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai6a</title>
+    <style>
+        body{
+            background-color: rgb(156, 215, 215);
+            border: 1px solid black;
+            height: 1200px;
+            font-size: 30px;
+            width: 1200px;
+        }
+        #fn, #se, #ser, #dp, #b2, #st, #zip, #a, #ct, #ln{
+            width: 235px;
+            height: 25px;
+        }
+       #b2{
+            text-align: center;
+       }
+    </style>
+</head>
+<body>
+    
+    <img src="../tuan1Bai6.png" alt="sai path">
+    <h1>Registration Form</h1>
+    <p>Register your Jackson Electronics product here</p>
+    <table>
+        <tr>
+            <td><label for="">First Name:</label></td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td><input type="First Name" name="fn" id="fn"></td>
+            <td><label for="">Last Name:</label></td>
+            <td><input type="Last Name" name="ln" id="ln"></td>
+        </tr>
+        <tr>
+            <td><label for="">Address#1:</label></td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td><input type="A" name="a" id="a" size="30"></td>
+        </tr>
+
+        <tr>
+            <td><label for="">Address#2:</label></td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td><input type="A" name="a" id="a" size="30"></td>
+        </tr>
+
+        <tr>
+            <td><label for="">City:</label></td>
+            <td></td>
+            <td><input type="city" name="ct" id="ct" size="30"></td>
+            <td><label for="">State:</label></td>
+            <td><input type="State" name="st" id="st"></td>
+            <td><label for="">Zip:</label></td>
+            <td><input type="zip" name="zip" id="zip"></td>
+        </tr>
+        <tr>
+            <td><label for="">Country:</label></td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td><input type="Country" name="ct" id="ct" size="30"></td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <td><label for="">Product:</label></td>
+            
+            <td>
+                <select name="se" id="se">
+                    <option value="ScanMaster">ScanMaster</option>
+                    <option value="ScanMaster">ScanMaster</option>
+                    <option value="ScanMaster">ScanMaster</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">Date Purchased:</label></td>
+            <td><input type="Date Purchased" name="dp" id="dp" size="30"></td>
+        </tr>
+        <tr>
+            <td><label for="">Serial#:</label></td>
+            <td><input type="Serial#" name="ser" id="ser"></td>
+        </tr>
+        <tr>
+            <td><label for="">Used for:</label></td>
+            <td><input type="radio" name="Home" id="radio">Home</td>
+            <td><input type="radio" name="Home" id="radio">Educational Institution</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="radio" name="Home" id="radio">Business</td>
+            <td><input type="radio" name="Home" id="radio">Other</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="radio" name="Home" id="radio">Goverment</td>
+        </tr>
+        <tr>
+            <td><label for="">System (check all that apply)</label></td>
+            <td><input type="checkbox" name="checkbox" id="checkbox">Windows</td>
+            <td><input type="checkbox" name="checkbox" id="checkbox">UNIX</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="checkbox" id="checkbox">Macintosh</td>
+            <td><input type="checkbox" name="checkbox" id="checkbox">Other</td>
+        </tr>
+        <tr>
+            <td><label for="">Comment?</label></td>
+            <td><textarea name="txtar" id="txtar" cols="30" rows="6"></textarea></td>
+        </tr>
+        <tr>
+            <br>
+            <td></td>
+            <td><button type="reset" id="b2">Click to register</button>
+                <button type="reset" id="b2">Click to cancel</button></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
